@@ -1,112 +1,25 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-html {
-    background-color: #b3ff86 !important;
-    scroll-behavior: smooth;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    color: #333333;
-    width: 100%;
-    height: 100%;
-}
-
-main {
-    margin: auto;
-    max-width: 720px;
-}
-
-.navbar {
-    width: 100%;
-    height: auto;
-    padding: 1em 0 1em 0;
-    position: fixed !important;
-    z-index: 999 !important;
-    background: #93ee5f;
-    box-shadow: 0px 2px 6px #8cd95f;
-}
-
-.navtitle {
-    display: block;
-    font-size: 1.2em;
-    font-weight: 700;
-    text-align: center;
-    margin: auto;
-    color: #072e75;
-    text-decoration: none;
-}
-
-.containerIndex {
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-h1 {
-    color: #072e75;
-}
-
-.container {
-    margin: auto;
-    max-width: 700px;
-    padding-bottom: 5em;
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.neumorphism-1 {
-    margin: auto;
-    height: auto;
-    width: 90%;
-    padding: 1.5em;
-    border-radius: 50px;
-    background: #a5ff70;
-    box-shadow: 20px 20px 60px #8cd95f, -20px -20px 60px #beff81;
-}
-
-.neumorphism-2 {
-    margin: auto;
-    height: auto;
-    width: 90%;
-    max-width: 620px;
-    padding: 1.5em;
-    border-radius: 50px;
-    background: #a5ff70;
-    box-shadow: 20px 20px 60px #8cd95f, -20px -20px 60px #beff81;
-}
-
 .input {
     -moz-appearance: none;
     -webkit-appearance: none;
     appearance: none;
     background-color: transparent;
-    font-size: 18px;
     letter-spacing: 0.1em;
-    color: #091747;
+    color: #1D1D1F;
     margin-top: 0.2em;
     margin-right: 0.2em;
     margin-left: 0.2em;
     max-width: 50%;
     padding: 0.5em;
-    outline: none;
-    border: none;
-    border-radius: 30px;
-    box-shadow: inset 2px 2px 5px #68b429, inset -5px -5px 10px #a0ff64;
+    border: .2rem solid #10a381;
+    font-size: 1rem;
+    border-radius: .5rem;
+    background: transparent;
     transition: all 0.2s ease-in-out;
 }
 
 .input:focus {
     width: 850%;
     max-width: 85%;
-    box-shadow: inset 1px 1px 2px #63aa28, inset -1px -1px 2px #32740d;
 }
 
 .label {
